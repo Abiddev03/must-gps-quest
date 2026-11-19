@@ -1,0 +1,7 @@
+# Works on Python 3.9 to 3.13 (tested on 3.9 and 3.13)
+geopy>=2.4,<3
+shapely>=2.0,<3
+pyproj>=3.6,<4
+movingpandas>=0.20,<1   # reused: speed-based outlier cleaner (pulls in geopandas, pandas)
+pytest>=8,<10
+tzdata  # time zone data for zoneinfo on Windows
